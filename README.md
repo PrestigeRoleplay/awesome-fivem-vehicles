@@ -41,6 +41,9 @@
 - [FiveM Vehicle Optimization Guide](https://fivemrides.com/fivem-vehicle-optimization/) - Best practices for reducing file sizes and improving client performance.
 - [Debadged vs Lore Friendly Vehicles](https://fivemrides.com/fivem-debadged-vs-lore-friendly/) - Understand the difference and when to use each type.
 - [Best FiveM Cars 2026](https://fivemrides.com/best-fivem-cars/) - Curated picks for the best vehicle mods this year.
+- [FiveM Car Not Spawning - 9 Causes & Fixes](https://fivemrides.com/fivem-car-not-spawning/) - Diagnostic checklist for the tanker/trailer bug, invalid model errors, and streaming failures.
+- [FiveM Resmon High Fix](https://fivemrides.com/fivem-resmon-high-fix/) - Find and fix the scripts inflating your resource monitor times.
+- [FiveM Vehicle LOD Fix](https://fivemrides.com/fivem-vehicle-lod-fix/) - Stop vehicles from disappearing at distance with proper lodDistances tuning.
 - [Cfx.re Documentation](https://docs.fivem.net/) - Official FiveM documentation covering natives, resource manifests, and server configuration.
 
 ## Vehicle Sources
