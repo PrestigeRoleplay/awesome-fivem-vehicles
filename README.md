@@ -5,6 +5,7 @@
 ## Contents
 
 - [Tools](#tools)
+- [GTA V Enhanced (gen9)](#gta-v-enhanced-gen9)
 - [Engine Sound Packs](#engine-sound-packs)
 - [Guides & Tutorials](#guides--tutorials)
 - [Vehicle Sources](#vehicle-sources)
@@ -24,6 +25,16 @@
 - [ToolKitV](https://github.com/UmbrellaRE/ToolKitV) - Texture optimizer for GTA V/FiveM resources. Texture-only; does not support 3D model optimization.
 - [OpenIV](https://openiv.com/) - The essential GTA V file editor for browsing and extracting game archives (RPF), textures, and models.
 - [CodeWalker](https://github.com/dexyfex/CodeWalker) - 3D map and model viewer for GTA V. Useful for inspecting YFT/YDR models and YTD textures.
+
+## GTA V Enhanced (gen9)
+
+FiveM for GTA V Enhanced runs as a separate client (early access since July 2026). Legacy YFT/YTD assets do not load on it - every vehicle must be converted, and a clean conversion is not proof it works in game.
+
+- [FiveM on GTA V Enhanced: Install and Run Custom Vehicles](https://fivemrides.com/fivem-enhanced-vehicles-guide/) - Full field guide: Alchemist refine + convert pipeline, Enhanced FXServer setup, and the common failure signatures (streaming timeouts, client crashes, silent engines).
+- [FiveM Enhanced Cars overview](https://fivemrides.com/fivem-enhanced-cars/) - What the gen9 client changes for vehicle mods and how in-game verification works.
+- [Alchemist](https://docs.fivem.net/) - Official Cfx.re Legacy-to-Enhanced asset conversion tool. Always run `--refine` before the convert pass; a straight convert can produce files that crash the Enhanced client despite valid headers.
+- **DLC audio bank trap** - On the Enhanced client, DLC vehicle sound banks (`kanjo`, `nero`, `xa21`, `jugular`, `trophytruck`, `schafter3`, `minivan2`, `elegy`...) play no engine sound, while base-game banks (`adder`, `baller`, `infernus`, `sandking`...) work. Remap `<audioNameHash>` to a base-game bank of the same class (e.g. `elegy` to `elegy2`, `schafter3` to `schafter2`).
+- **Edition check** - `curl http://<ip>:30120/info.json` returns `"gamename": "gta5enhanced"` on an Enhanced server, `"gta5"` on Legacy.
 
 ## Engine Sound Packs
 
