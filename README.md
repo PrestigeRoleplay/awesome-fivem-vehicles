@@ -25,6 +25,7 @@
 - [ToolKitV](https://github.com/UmbrellaRE/ToolKitV) - Texture optimizer for GTA V/FiveM resources. Texture-only; does not support 3D model optimization.
 - [OpenIV](https://openiv.com/) - The essential GTA V file editor for browsing and extracting game archives (RPF), textures, and models.
 - [CodeWalker](https://github.com/dexyfex/CodeWalker) - 3D map and model viewer for GTA V. Useful for inspecting YFT/YDR models and YTD textures.
+- [carcols-id-fixer](https://github.com/RivoLabs/carcols-id-fixer) - Detects and fixes sirenSettings, lightSettings and modKit ID overlaps across carcols.meta and carvariations.meta files.
 
 ## GTA V Enhanced (gen9)
 
